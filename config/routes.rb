@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'todos', to: 'todos#index'
+  get '/', to: 'todos#index'
   post 'todo' , to: 'todos#create'
   post 'delete-todo' , to: 'todos#delete'
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html

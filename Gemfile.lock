@@ -132,6 +132,7 @@ GEM
     nio4r (2.5.8)
     nokogiri (1.13.8-x86_64-linux)
       racc (~> 1.4)
+    pg (1.4.3)
     public_suffix (4.0.7)
     puma (5.6.4)
       nio4r (~> 2.0)
@@ -198,7 +199,6 @@ GEM
       actionpack (>= 5.2)
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
-    sqlite3 (1.4.4)
     strscan (3.0.4)
     thor (1.2.1)
     timeout (0.3.0)
@@ -230,13 +230,13 @@ DEPENDENCIES
   debug
   jbuilder
   mini_racer
+  pg (~> 1.4)
   puma (~> 5.0)
   rails (~> 7.0.3, >= 7.0.3.1)
   react_on_rails (= 13.0.2)
   selenium-webdriver
   shakapacker (= 6.5.1)
   sprockets-rails
-  sqlite3 (~> 1.4)
   tzinfo-data
   web-console
   webdrivers
